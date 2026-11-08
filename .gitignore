@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+tools/
+.streamlit/secrets.toml
+.DS_Store
+artifacts/
+*.log
+.ipynb_checkpoints/
+build_submission_pdf.py
+*.pdf
+artifacts/
+__pycache__/
+push_to_github.sh

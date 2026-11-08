@@ -1,0 +1,152 @@
+{
+  "target_column": "Revenue",
+  "feature_columns": [
+    "Administrative",
+    "Administrative_Duration",
+    "Informational",
+    "Informational_Duration",
+    "ProductRelated",
+    "ProductRelated_Duration",
+    "BounceRates",
+    "ExitRates",
+    "PageValues",
+    "SpecialDay",
+    "Month",
+    "OperatingSystems",
+    "Browser",
+    "Region",
+    "TrafficType",
+    "VisitorType",
+    "Weekend"
+  ],
+  "categorical_columns": [
+    "Month",
+    "VisitorType"
+  ],
+  "numeric_columns": [
+    "Administrative",
+    "Administrative_Duration",
+    "Informational",
+    "Informational_Duration",
+    "ProductRelated",
+    "ProductRelated_Duration",
+    "BounceRates",
+    "ExitRates",
+    "PageValues",
+    "SpecialDay",
+    "OperatingSystems",
+    "Browser",
+    "Region",
+    "TrafficType",
+    "Weekend"
+  ],
+  "class_labels": [
+    0,
+    1
+  ],
+  "positive_label_meaning": "Purchase completed (Revenue=True)",
+  "dataset": "UCI Online Shoppers Purchasing Intention Dataset",
+  "train_size": 9864,
+  "test_size": 2466,
+  "model_files": {
+    "Logistic Regression": "logistic_regression",
+    "Decision Tree": "decision_tree",
+    "KNN": "knn",
+    "Naive Bayes": "naive_bayes",
+    "Support Vector Machine": "svm"
+  },
+  "metrics": {
+    "Logistic Regression": {
+      "Accuracy": 0.8499594484995945,
+      "AUC": 0.8962690054365849,
+      "Precision": 0.5107142857142857,
+      "Recall": 0.7486910994764397,
+      "F1": 0.6072186836518046,
+      "MCC": 0.5330405682140082
+    },
+    "Decision Tree": {
+      "Accuracy": 0.832522303325223,
+      "AUC": 0.8766135150887842,
+      "Precision": 0.47581903276131043,
+      "Recall": 0.7984293193717278,
+      "F1": 0.5962854349951123,
+      "MCC": 0.52564976990782
+    },
+    "KNN": {
+      "Accuracy": 0.875506893755069,
+      "AUC": 0.8212848328325513,
+      "Precision": 0.6903553299492385,
+      "Recall": 0.35602094240837695,
+      "F1": 0.4697754749568221,
+      "MCC": 0.436059933996205
+    },
+    "Naive Bayes": {
+      "Accuracy": 0.6735604217356043,
+      "AUC": 0.7939009255258213,
+      "Precision": 0.2940603700097371,
+      "Recall": 0.7905759162303665,
+      "F1": 0.4286728176011356,
+      "MCC": 0.32490913703743013
+    },
+    "Support Vector Machine": {
+      "Accuracy": 0.856853203568532,
+      "AUC": 0.88404548240898,
+      "Precision": 0.5279383429672447,
+      "Recall": 0.7172774869109948,
+      "F1": 0.6082130965593786,
+      "MCC": 0.5323029499432935
+    }
+  },
+  "confusion_matrices": {
+    "Logistic Regression": [
+      [
+        1810,
+        274
+      ],
+      [
+        96,
+        286
+      ]
+    ],
+    "Decision Tree": [
+      [
+        1748,
+        336
+      ],
+      [
+        77,
+        305
+      ]
+    ],
+    "KNN": [
+      [
+        2023,
+        61
+      ],
+      [
+        246,
+        136
+      ]
+    ],
+    "Naive Bayes": [
+      [
+        1359,
+        725
+      ],
+      [
+        80,
+        302
+      ]
+    ],
+    "Support Vector Machine": [
+      [
+        1839,
+        245
+      ],
+      [
+        108,
+        274
+      ]
+    ]
+  }
+}
