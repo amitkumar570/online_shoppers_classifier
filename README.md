@@ -47,7 +47,7 @@ online_shoppers_classifier/
 |   |-- metrics.json
 ```
 
-**Live Streamlit app:** `https://<your-app>.streamlit.app`
+**Live Streamlit app:** `https://amitkumar570-online-shoppers-classifier-app-ghgvnd.streamlit.app/`
 
 ## d. Models used
 
